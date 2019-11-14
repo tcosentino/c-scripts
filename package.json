@@ -1,14 +1,14 @@
 {
-  "name": "kcd-scripts",
-  "version": "0.0.0-semantically-released",
-  "description": "CLI for common scripts for my projects",
+  "name": "c-scripts",
+  "version": "0.0.1",
+  "description": "CLI for common scripts for contuit projects",
   "engines": {
     "node": ">=8",
     "npm": ">=5",
     "yarn": ">=1"
   },
   "bin": {
-    "kcd-scripts": "dist/index.js"
+    "c-scripts": "dist/index.js"
   },
   "scripts": {
     "test": "node src test",
@@ -32,7 +32,7 @@
     "jest.js"
   ],
   "keywords": [],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "Troy Cosentino",
   "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.6.4",
@@ -109,12 +109,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kentcdodds/kcd-scripts.git"
+    "url": "https://github.com/troycosentino/c-scripts.git"
   },
   "bugs": {
-    "url": "https://github.com/kentcdodds/kcd-scripts/issues"
+    "url": "https://github.com/troycosentino/c-scripts/issues"
   },
-  "homepage": "https://github.com/kentcdodds/kcd-scripts#readme",
+  "homepage": "https://github.com/troycosentino/c-scripts#readme",
   "devDependencies": {
     "jest-in-case": "^1.0.2",
     "slash": "^3.0.0"
